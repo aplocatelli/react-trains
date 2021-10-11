@@ -8,7 +8,7 @@ Algorithms: **_Depth First Search and Dijkstra_**.
 
 ## Test solution
 
-To view only the Typescript files related to the test, navigate to folder **src/trains**.
+To view only the Typescript files related to the test, navigate to the `src/trains` folder.
 
 ## How to
 
