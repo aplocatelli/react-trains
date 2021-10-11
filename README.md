@@ -6,6 +6,10 @@ The problem was to calculate and output some informations about routes of trains
 Stack: **_Typescript, React and Jest_**.\
 Algorithms: **_Depth First Search and Dijkstra_**.
 
+## Test solution
+
+To view only the Typescript files related to the test, navigate to folder **src/trains**
+
 ## How to
 
 Download the entire project folder and unzip it.
