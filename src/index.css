@@ -1,13 +1,84 @@
+:root {
+	--dark-blue: #18325d;
+	--orange: #f47425;
+	--green: green;
+}
+
+html {
+	font-size: 62.5%; /* 62.5% of 16px = 10px */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.container {
+	max-width: 108rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 0;
+	font-weight: bold;
+}
+
+h2 {
+	margin: 0 0 2rem;
+	font-size: 1.6rem;
+	color: var(--orange);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 3rem;
+}
+
+ol,
+ul {
+	padding: 0;
+	margin: 0 0 3rem;
+	list-style-type: none;
+	counter-reset: counter;
+}
+
+ol li,
+ul li {
+	margin-bottom: 0.2rem;
+	counter-increment: counter;
+	display: flex;
+}
+
+ol li span,
+ul li span {
+	display: block;
+	width: calc(100% - 3.5rem);
+}
+
+ul li span {
+	width: calc(100% - 9.5rem);
+}
+
+ol li::before,
+ul li::before {
+	content: counter(counter) ". ";
+	display: inline-block;
+	width: 3.5rem;
+	font-weight: bold;
+}
+
+ul li::before {
+	content: "Output #" counter(counter) ":";
+	width: 9.5rem;
 }
