@@ -1,6 +1,6 @@
 # Trains - Typescript & React solution
 
-This project is the result of a coding test
+This project is the result of a coding test.
 
 ## How to
 
