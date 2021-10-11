@@ -8,7 +8,7 @@ Algorithms: **_Depth First Search and Dijkstra_**.
 
 ## Test solution
 
-To view only the Typescript files related to the test, navigate to folder **src/trains**
+To view only the Typescript files related to the test, navigate to folder **src/trains**.
 
 ## How to
 
@@ -17,7 +17,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Install all the dependecies of the project.
+Install all the dependencies of the project.
 
 ### `npm start`
 
