@@ -17,7 +17,7 @@ class Graph {
 
 		const pattern = /^(([A-Ea-e]{2}[0-9]+(, ){1})*)([A-Ea-e]{2}[0-9]+)$/i;
 		if (pattern.test(input)) {
-			const inputArr = input.replaceAll(" ", "").split(",");
+			const inputArr = input.toUpperCase().replaceAll(" ", "").split(",");
 
 			if (inputArr.length > 0) {
 				inputArr.forEach(item => {

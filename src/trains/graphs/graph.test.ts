@@ -35,7 +35,7 @@ test('Valid graph definition: "CC29"', () => {
 	expect(adjacencyMatrix.size).toBe(1);
 });
 
-test('Valid graph definition: "AB11, BC16, CD14, DC2"', () => {
+test('Valid graph definition: "AB11, bc16, CD14, dC2"', () => {
 	const adjacencyMatrix = graphTest1.getAdjacencyMatrix();
 
 	expect(adjacencyMatrix.size).toBe(4);
