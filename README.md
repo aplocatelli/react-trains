@@ -3,7 +3,7 @@
 This project is the result of a coding test.
 The problem was to calculate and output some informations about routes of trains, like route distance, number of unique routes between two towns, and the shortest route between two towns.
 
-Stack: **_Typescript, React and Jest_**.
+Stack: **_Typescript, React and Jest_**.\
 Algorithms: **_Depth First Search and Dijkstra_**.
 
 ## How to
